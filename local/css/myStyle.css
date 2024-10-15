@@ -1,0 +1,131 @@
+@media (min-width:1000px) {
+.thumbnail p{height: 123px;}
+.mg-room:hover figcaption {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.mg-room:hover figcaption p,
+.mg-room:hover figcaption ul,
+.mg-room:hover figcaption .btn {
+  opacity: 1;
+  -webkit-transform: translate(0, 0);
+      -ms-transform: translate(0, 0);
+          transform: translate(0, 0);
+}
+.mg-room:hover figcaption .btn {
+  opacity: 1;
+  -webkit-transition-delay: 0.5s;
+          transition-delay: 0.5s;
+}
+.mg-room:hover figcaption .btn.btn-link {
+  -webkit-transition: opacity 0.3s ease 0.5s, -webkit-transform 0.3s ease 0.5s, color 0.3s;
+          transition: opacity 0.3s ease 0.5s, transform 0.3s ease 0.5s, color 0.3s;
+}
+.mg-room:hover figcaption p,
+.mg-room:hover figcaption ul {
+  -webkit-transition-delay: 0.4s;
+          transition-delay: 0.4s;
+}
+.mg-room:hover figcaption h2,
+.mg-room:hover figcaption .mg-room-rating,
+.mg-room:hover figcaption .mg-room-price {
+  -webkit-transform: translate(0, 0);
+      -ms-transform: translate(0, 0);
+          transform: translate(0, 0);
+}
+.mg-room:hover figcaption h2,
+.mg-room:hover figcaption .mg-room-rating {
+  -webkit-transition-delay: 0.1s;
+          transition-delay: 0.1s;
+}
+.mg-room:hover figcaption .mg-room-price {
+  -webkit-transition-delay: 0.2s;
+          transition-delay: 0.2s;
+}
+}
+
+@media (max-width:999px){
+.mg-room figcaption .btn.btn-main {    
+    opacity: 1;display: inline-block;
+}
+.mg-room figcaption {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.mg-room figcaption p,
+.mg-room figcaption ul,
+.mg-room figcaption .btn {
+  opacity: 1;
+  -webkit-transform: translate(0, 0);
+      -ms-transform: translate(0, 0);
+          transform: translate(0, 0);
+}
+.mg-room figcaption .btn {
+  opacity: 1;
+  -webkit-transition-delay: 0.5s;
+          transition-delay: 0.5s;
+}
+.mg-room figcaption .btn.btn-link {
+  -webkit-transition: opacity 0.3s ease 0.5s, -webkit-transform 0.3s ease 0.5s, color 0.3s;
+          transition: opacity 0.3s ease 0.5s, transform 0.3s ease 0.5s, color 0.3s;
+}
+.mg-room figcaption p,
+.mg-room figcaption ul {
+  -webkit-transition-delay: 0.4s;
+          transition-delay: 0.4s;
+}
+.mg-room figcaption h2,
+.mg-room figcaption .mg-room-rating,
+.mg-room figcaption .mg-room-price {
+  -webkit-transform: translate(0, 0);
+      -ms-transform: translate(0, 0);
+          transform: translate(0, 0);
+}
+.mg-room figcaption h2,
+.mg-room figcaption .mg-room-rating {
+  -webkit-transition-delay: 0.1s;
+          transition-delay: 0.1s;
+}
+.mg-room figcaption .mg-room-price {
+  -webkit-transition-delay: 0.2s;
+          transition-delay: 0.2s;
+}
+}
+.list-unstyled > li:before {
+   font-family: FontAwesome;
+   content: "\f054";
+   display: inline-block;
+   padding-right:10px;
+   vertical-align: middle;
+}
+.carousel-inner>.item>img{width:100% !important;}
+.gallery{display:none;}
+
+.list-thumb{
+	color: #fff;
+	position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    padding:10px;
+    background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 25%, rgba(0, 0, 0, 0.8) 100%);
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 25%, rgba(0, 0, 0, 0.8) 100%);	
+}
+.list-thumb h2{
+	font-size: 17px;
+	margin:0;
+}
+.list-thumb a:after{
+	font-family: FontAwesome;
+	content: "»";
+    padding-left: 10px;
+}
+.list-thumb a:hover{
+	color: #fff;
+}
+.list-thumb p{
+	position: absolute;
+    bottom: 0;
+	margin: 0 10px 10px 0;
+}
+p > .price{
+	color:red;
+}

@@ -1,0 +1,304 @@
+@font-face {
+    font-family: Acens;
+    src: url("fonts/Acens.ttf") format("TrueType");
+}
+@font-face {
+    font-family: Ailerons;
+    src: url("fonts/Ailerons-Typeface.otf") format("opentype");
+}
+@font-face {
+    font-family: HelveticaNeue;
+    src: url("fonts/HelveticaNeueLight.ttf") format("TrueType");
+}
+@font-face {
+    font-family: HelveticaNeue;
+    font-weight: bold;
+    src: url("fonts/HelveticaNeueBold.ttf") format("TrueType");
+}
+@font-face {
+    font-family: HelveticaNeue;
+    font-style: italic;
+    src: url("fonts/HelveticaNeueItalic.ttf") format("TrueType");
+}
+
+/* Add here all your css styles (customizations) */
+.img-wrapper--shadow:after {
+    content: "";
+    background: rgba(0, 0, 0, .3);
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+#gallery .container, #map-section .container, #services .container {
+    padding-top: 100px;
+}
+.flat-testimonials .flat-testimonials-in {
+    padding: 0;
+    background: none;
+}
+i.icon-bg-u {
+    background: none;
+    color: #000;
+    font-size: 30pt;
+}
+img.logo {
+    position: relative;
+    top: -15px;
+    width: 50px;
+    height: 50px;
+}
+span.logo {
+    font-size: 1em;
+    float: left;
+    left: 50px;
+    position: relative;
+    top: -50px;
+    font-family: 'Open Sans', sans-serif;
+}
+.navbar-default .navbar-brand span {
+    color: #ececec !important;
+}
+.one-page-header.top-nav-collapse .navbar-brand span {
+    color: #777 !important;
+}
+#prices .package {
+    font-family: "Dosis", san-serif;
+    font-size: 1.5em;
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
+}
+#prices .package:after {
+    bottom: -30px !important;
+}
+#prices .price {
+    font-size: 1.5em;
+    font-weight: 200;
+}
+.normalFont {
+    font-weight: 400;
+}
+
+/*Navbar*/
+@media (min-width:992px) {
+    .one-page-header-style-2.navbar .navbar-nav {
+        float: right;
+        margin-left: 55px !important;
+    }
+}
+.portfolio-box-v1 li img {
+    position: relative;
+    left: 50px;    /* margin-top: 30px; */
+}
+.portfolio-box-v1 li img.box1 {
+    width: 90% !important;
+    position: relative;
+    left: 0px !important;
+    margin-top: 10px;
+}
+
+/*Navbar*/
+@media (max-width: 768px) {
+    .portfolio-box-v1 li img.box1 {
+        left: 10px !important;
+        width: 250px !important;
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    ..portfolio-box-v1 .portfolio-text {
+            margin-top: 20px !important;
+    }
+}
+
+.portfolio-box-v1 li img.box2 {
+    width: 100% !important;
+    float: right;
+    margin-right: 50px;
+    margin-top: 10px;
+}
+.portfolio-box-v1 li {
+    height: 300px;
+}
+.portfolio-box-v1 .portfolio-text {
+    text-transform: uppercase;
+    margin-top: 10%;
+    font-size: 2.6em;
+    text-align: center;
+    font-family: initial;
+    line-height: 1.33em;
+    color: #fff;
+}
+.portfolio-box-v1 .portfolio-discount {
+    font-size: 6em;
+    margin-top: 0;
+    line-height: 1.4em;
+}
+.portfolio-box-v1 li.portfolio2 {
+
+    background: #838383;
+}
+.portfolio-box-v1 li.portfolio2 .portfolio-text {
+    color: #fff !important;
+    /* float: left; */
+    /* display: inline; */
+    line-height: 1.33em;
+}
+.one-page-header .navbar-brand {
+    font-size: 31px;
+    font-weight: 200;
+    line-height: 15px;
+    padding: 9px 15px 13px;
+    color: #fff !important;
+    font-family: 'Open Sans', sans-serif;
+}
+p.logo {
+    color: #a10f2b !important;
+    font-family: Acens !important;
+    font-size: 1.03em !important;
+    text-transform: lowercase;
+    margin-bottom: 2px !important;
+}
+span.logo-tag {
+    font-size: 0.489em;
+    font-family: Ailerons;
+    text-transform: uppercase;
+}
+ul.nav.navbar-nav {
+    font-weight: 600;
+}
+body {
+    font-family: "HelveticaNeue", Helvetica, Arial, sans-serif;
+}
+.btn-u.btn-brd.btn-u-price.btn-brd-hover:hover {
+    background: #a10f2b;
+}
+.btn-u.btn-brd.btn-u-price:hover {
+    border-color: #a10f2b;
+}
+.btn-u.btn-brd.btn-u-price {
+    border-color: #a10f2b;
+}
+a.aprice:hover {
+    color: #fff;
+    text-decoration: none;
+}
+button.btn-u.btn-brd.btn-brd-hover.btn-u-price:hover {
+    color: #fff !important;
+}
+.portfolio-text.top-left1 {
+    padding-right: 25px;
+}
+.portfolio-text.portfolio-discount.top-right {
+    /* margin-top: 15px; */
+    line-height: 1.15em;
+}
+.col-sm-7.top-left {
+    padding-left: 25px;
+    margin-top: 5px;
+}
+.portfolio-box-v1 li {
+    background: #333;
+    position: relative;
+    -webkit-backface-visibility: hidden;
+}
+.col-sm-7.topleft {
+
+    /* padding-top: 15px; */
+}
+table.table.table-bordered {
+    font-size: 17px;
+    background: #ffffff;
+    color: #444;
+    text-align: center;
+}
+p.fa.fa-check {
+    color: #fff;
+    font-size: 15pt;
+}
+p.mores-title {
+    color: #f05153;
+    font-weight: 600;
+}
+.mores {
+    text-align: center;
+    margin-top: 50px;
+    padding-bottom: 10px;
+    font-size: 13pt;
+}
+td.verticalCenter {
+    vertical-align: middle!important;
+}
+td.verticalCenterBold {
+    font-weight: 600;
+    vertical-align: middle!important;
+}
+td.verticalCenterBold1 {
+    font-weight: 600;
+    color: #a10f2b;
+    vertical-align: middle!important;
+}
+tr.title-table-prices {
+    background: #f9a71c;
+    font-size: 19px;
+}
+.btn-prices {
+    text-align: center;
+}
+ul.nav.nav-pills {
+    text-align: center;
+    margin-bottom: 5px;
+}
+.nav-pills>li {
+
+    /* float: left; */
+    display: inline-block !important;
+}
+.centers{
+    text-align: center;
+}
+.inlinee {
+    display: inline;
+}
+#langChanger{
+    margin-top: 15px;}
+
+.content-lg1 {
+    padding-top: 100px;
+    padding-bottom: 0px;
+}
+.content-lg2 {
+    padding-top: 30px;
+    padding-bottom: 100px;
+}
+.news-section {
+    border-top: solid 0px #eee;
+    border-bottom: solid 1px #eee;
+}
+.container-fluid1 {
+    /* padding-right: 15px; */
+    /* padding-left: 15px; */
+    margin-right: auto;
+    margin-left: auto;
+}
+.table-bordered>tbody>tr>td {
+    border: 1px solid #444;
+}
+.table-bordered>thead>tr>td {
+    border: 1px solid #444;
+}
+.table>thead:first-child>tr:first-child>td {
+    border-top: 1px solid #444;
+}
+.textLeft {
+    text-align: left;
+    padding-left: 25px!important;
+}
+.inline-table {
+    font-weight: 600;
+    color: #a10f2b;
+    display:inline;
+}

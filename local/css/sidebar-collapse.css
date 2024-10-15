@@ -1,0 +1,44 @@
+.sidebar {
+  height: 100%;
+  width: 300px;
+  position: fixed;
+  z-index: 99;
+  top: 0;
+  right: 0;
+  background-color: #f5f5f5;
+  overflow-x: hidden;
+  transition: all 0.4s;
+  padding: 65px 10px 10px 10px;
+  transform: translateX(300px);
+}
+
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #111;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+}
+
+.openbtn:hover {
+  background-color: #444;
+}
+
+#main {
+  transition: margin-left .5s;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+
+  .sidebar a {font-size: 18px;}
+}

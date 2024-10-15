@@ -1,0 +1,3 @@
+#account-overview-container.affix {position:fixed;top:58px; }
+#account-overview-container.affix-top{position: static;}
+#account-overview-container.affix-bottom{position: absolute;}

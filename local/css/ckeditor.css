@@ -1,0 +1,265 @@
+.img-dai-dien {
+    position: relative;
+}
+
+.img-dai-dien:before {
+    content: "avata";
+    position: absolute;
+    padding: 7px;
+    background: rgba(0, 0, 0, .3);
+    color: white;
+    /*
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+*/
+}
+
+.blog-heading {
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+body {
+    font-family: "Helvetica", Times, serif;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+
+/* ---PRODUCT SPECIFICATIONS */
+
+.product-spec-table {
+    border: 1px solid #ccc;
+    padding-left: 15px;
+    margin-left: 5%;
+    border-collapse: collapse;
+}
+
+.product-spec-table--alone {
+    margin-left: 0px !important;
+}
+
+.product-spec-table tr {
+    font-size: 16px;
+    border-bottom: 1px solid #ccc;
+    text-align: left;
+}
+
+.product-spec-table th {
+    font-style: normal;
+    background-color: #dff0d8;
+    color: #1F2B22;
+}
+
+.product-spec-table td,
+th {
+    overflow-wrap: anywhere;
+    white-space: initial;
+    padding: 8px;
+}
+
+.product-spec-table tr:nth-child(even) {
+    background-color: #FAFAFA;
+}
+
+.product-spec-table tr:hover {
+    background-color: #f2f2f2;
+}
+
+.dim-imgs {
+    display: flex;
+    flex: 1;
+}
+
+.dim-imgs img {
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+
+/*For download section*/
+
+.download-manual {
+    display: flex;
+    flex-wrap: wrap;
+    border-collapse: collapse;
+    background-color: #fff;
+}
+
+.download-manual-item {
+    padding: 10px;
+}
+
+.download-manual__name {
+    font-weight: 600;
+}
+
+.download-manual__link {
+    color: #0089d1!important;
+}
+
+
+/* ----PRODUCT DESCRIPTION---- */
+
+.table-responsive {
+    border: none;
+    margin-bottom: 10px;
+}
+
+.product-descrip-table {
+    border-collapse: collapse;
+}
+
+.product-descrip-table tr {
+    display: flex;
+    font-size: 16px;
+    border-bottom: 1px solid #ccc;
+    text-align: left;
+}
+
+.product-descrip-table th {
+    font-style: normal;
+    background-color: #e7f3fe;
+}
+
+.product-descrip-table td,
+th {
+    overflow-wrap: anywhere;
+    white-space: initial;
+    padding: 8px;
+    flex: 1;
+}
+
+*/ .product-descrip-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+*/ .product-descrip-table:hover {
+    background-color: #ddd;
+}
+
+.product-footer {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 4px 12px;
+    background-color: #e7f3fe;
+    border-left: 6px solid #2196F3;
+}
+
+
+/* ----PRODUCT ACCESSORIES----- */
+
+.acsr-list {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+    justify-content: left;
+}
+
+.acsr-list__item {
+    margin-top: 15px;
+    border-radius: 10px;
+    text-align: center;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-right: 20px;
+}
+
+.acsr-list--img {
+    overflow: clip;
+}
+
+.acsr-list--img img {
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+    transition: 0.3s linear;
+}
+
+.acsr-list--img img:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.acsr-list-descrip {
+    display: block;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.acsr-list-descrip__model {
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+
+/*----RESPONSIVE----*/
+
+
+/*For medium devices*/
+
+@media screen and (max-width: 576px) {
+    .product-descrip-table {
+        width: 100%;
+    }
+    .product-spec-table {
+        width: 95%;
+    }
+    .dim-imgs {
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .acsr-list__item {
+        max-width: 100%;
+    }
+}
+
+@media screen and (min-width: 576px) {
+    .product-descrip-table {
+        width: 100%;
+    }
+    .product-spec-table {
+        width: 95%;
+    }
+    .dim-imgs {
+        justify-content: center;
+    }
+    .acsr-list__item {
+        max-width: 40%;
+    }
+}
+
+
+/*For large devices*/
+
+@media screen and (min-width: 992px) {
+    .product-descrip-table {
+        width: 80%;
+    }
+    .dim-imgs {
+        justify-content: left;
+    }
+    .product-spec-table {
+        width: 80%;
+    }
+    .acsr-list__item {
+        max-width: 30%;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .product-descrip-table {
+        width: 60%;
+    }
+    .product-spec-table {
+        width: 60%;
+    }
+}
+
+
+/* ----------END---------- */
